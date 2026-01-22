@@ -117,7 +117,17 @@ const Form = () => {
               />
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
-              <Button type="submit" color="secondary" variant="contained">
+              <Button
+                type="submit"
+                color="secondary"
+                variant="contained"
+                sx={{
+                  "&:hover": {
+                    transform: "scale(1.05)",
+                    transition: "all 0.3s ease-in-out",
+                  },
+                }}
+              >
                 Create New User
               </Button>
             </Box>

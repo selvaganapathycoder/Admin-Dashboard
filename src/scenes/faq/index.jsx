@@ -17,65 +17,68 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.redAccent[500]} variant="h5">
-            An Important Question
+            How do I download reports?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            You can download reports by clicking the "Download Reports" button
+            on the top right of the dashboard page. It will generate a PDF of
+            the current statistics.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.redAccent[500]} variant="h5">
-            Another Important Question
+            Can I customize the theme?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Yes! You can toggle between light and dark mode using the icon in
+            the topbar. The colors are predefined using Material UI and custom
+            tokens.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.redAccent[500]} variant="h5">
-            Your Favorite Question
+            How is the data managed?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Currently, the dashboard uses mock data defined in the `src/data`
+            folder. This can be easily replaced with API calls to your backend
+            server.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.redAccent[500]} variant="h5">
-            Some Random Question
+            What charts are available?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            The dashboard includes Line, Bar, Pie, and Geography charts, all
+            powered by the Nivo library for high-performance data visualization.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.redAccent[500]} variant="h5">
-            The Final Question
+            How to add new users?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Navigate to the "Profile Form" section under "Pages" in the sidebar.
+            Fill out the form and click "Create New User" to submit the data.
           </Typography>
         </AccordionDetails>
       </Accordion>
