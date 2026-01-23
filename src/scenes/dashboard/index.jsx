@@ -54,6 +54,7 @@ const Dashboard = () => {
         {/* ROW 1 */}
         <Box
           gridColumn="span 3"
+          sx={{ gridColumn: { xs: "span 12", sm: "span 6", md: "span 3" } }}
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -73,6 +74,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
+          sx={{ gridColumn: { xs: "span 12", sm: "span 6", md: "span 3" } }}
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -92,6 +94,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
+          sx={{ gridColumn: { xs: "span 12", sm: "span 6", md: "span 3" } }}
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -111,6 +114,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
+          sx={{ gridColumn: { xs: "span 12", sm: "span 6", md: "span 3" } }}
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -133,6 +137,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 8"
           gridRow="span 2"
+          sx={{ gridColumn: { xs: "span 12", md: "span 8" } }}
           backgroundColor={colors.primary[400]}
         >
           <Box
@@ -173,6 +178,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
+          sx={{ gridColumn: { xs: "span 12", md: "span 4" } }}
           backgroundColor={colors.primary[400]}
           overflow="auto"
         >
@@ -225,6 +231,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
+          sx={{ gridColumn: { xs: "span 12", md: "span 4" } }}
           backgroundColor={colors.primary[400]}
           p="30px"
         >
@@ -251,6 +258,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
+          sx={{ gridColumn: { xs: "span 12", md: "span 4" } }}
           backgroundColor={colors.primary[400]}
         >
           <Typography
@@ -267,6 +275,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
+          sx={{ gridColumn: { xs: "span 12", md: "span 4" } }}
           backgroundColor={colors.primary[400]}
           padding="30px"
         >

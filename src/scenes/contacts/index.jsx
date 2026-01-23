@@ -62,6 +62,8 @@ const Contacts = () => {
         m="40px 0 0 0"
         height="75vh"
         sx={{
+          mt: { xs: "20px", md: "40px" },
+          "& .MuiDataGrid-root": {
           "& .MuiDataGrid-root": {
             border: "none",
           },

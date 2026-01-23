@@ -51,7 +51,11 @@ const Calendar = () => {
     <Box m="20px">
       <Header title="Calendar" subtitle="Full Calendar Interactive Page" />
 
-      <Box display="flex" justifyContent="space-between">
+      <Box
+        display="flex"
+        flexDirection={{ xs: "column", md: "row" }}
+        justifyContent="space-between"
+      >
         {/* CALENDAR SIDEBAR */}
         <Box
           flex="1 1 20%"
@@ -88,7 +92,11 @@ const Calendar = () => {
         </Box>
 
         {/* CALENDAR */}
-        <Box flex="1 1 100%" ml="15px">
+        <Box
+          flex="1 1 100%"
+          ml={{ xs: 0, md: "15px" }}
+          mt={{ xs: "20px", md: 0 }}
+        >
           <FullCalendar
             height="75vh"
             plugins={[
